@@ -41,7 +41,7 @@
 			for ($o=0; $o<count($negatives); $o++) { 
 				echo $negatives[$o];
 			}
-		echo "LOOK AT FILE SECRET.txt";
+		echo "LOOK AT FILES Positive and Negative.txt";
 
 
 		file_put_contents("positives.txt", $positives);	
