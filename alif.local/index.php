@@ -1,7 +1,5 @@
 <?php
 
-require 'adl.php';
-
 	
 	$dates = file_get_contents("secret.txt");
 	$sliceddates = explode(" ", $dates);
