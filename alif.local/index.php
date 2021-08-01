@@ -4,10 +4,6 @@
 	$dates = file_get_contents("secret.txt");
 	$sliceddates = explode(" ", $dates);
 	$all  = array();
-	$plus = array();
-	$minus = array();
-	$zarb = array();
-	$taqsim = array();
 	$negatives= array();
 	$positives= array();
 	$fl = array();
